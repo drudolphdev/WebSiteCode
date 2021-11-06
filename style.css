@@ -268,7 +268,63 @@ header{
     grid-row: 2 / 6;
     width: 100%;
 }
-.conhecimento-img-wrapper{
+.conhecimento-img-wrapper img{object-fit: cover;
+    width: 100%;
+}
+.projetos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.sessao-header{
+    margin-top: 15%;
+}
+.card{
+    width: 30%;
+    height: 30rem;
+    position: relative;
+    margin-bottom: 50px;
+}
+.card-img-wrapper{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    background-color: #4b4b4b;
+}
+.card-img-wrapper img{
     object-fit: cover;
     width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    opacity: .8;
+}
+.card-info{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0 0.1rem 0.3rem rgba(0.3, 0.2, 0, 0.6);
+}
+.card-info h2{
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: 500;
+    color: #eee;
+}
+.card-info h3{
+    font-family: var(--font-action);
+    font-weight: bolder;
+    color: #ff4081;
+}
+.card-info p{
+    font-family: var(--font-secondary);
+
+}
+.card-info button{
+    width: 8rem;
+    height: 2.5rem;
+    ;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
